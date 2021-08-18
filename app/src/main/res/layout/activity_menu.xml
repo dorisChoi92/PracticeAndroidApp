@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/menuButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메뉴 화면 띄우기"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/menuTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="버튼을 눌러 부분 화면을 추가하세요."
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/menuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="@color/purple_200"
+        android:text="추가"
+        android:textColor="#ffffffff"/>
+
+    <LinearLayout
+        android:id="@+id/menuContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>
