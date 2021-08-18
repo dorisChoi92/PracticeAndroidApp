@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Basic">
-        <activity android:name=".Mission07Menu"/>
+        <activity android:name=".Mission08Menu"/>
+        <activity android:name=".Mission08Sub"/>
         <activity android:name=".LifeCycleMenuActivity"></activity>
         <activity android:name=".ParcelableMenuActivity" />
         <activity
@@ -17,7 +18,7 @@
             android:label="메뉴 액티비티"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity android:name=".MenuActivity" />
-        <activity android:name=".Mission07">
+        <activity android:name=".Mission08">
 
             <!-- with Activity:: LandscapeActivity -->
             <!-- <activity android:name=".LandscapeActivity" -->
