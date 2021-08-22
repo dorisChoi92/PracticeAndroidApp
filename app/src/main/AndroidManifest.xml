@@ -5,26 +5,14 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="SampleIntent"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Basic">
-        <activity android:name=".Mission08Menu"/>
-        <activity android:name=".Mission08Sub"/>
-        <activity android:name=".LifeCycleMenuActivity"></activity>
-        <activity android:name=".ParcelableMenuActivity" />
         <activity
-            android:name=".ForResultActivity"
-            android:label="메뉴 액티비티"
-            android:theme="@style/Theme.AppCompat.Dialog" />
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".Mission08">
-
-            <!-- with Activity:: LandscapeActivity -->
-            <!-- <activity android:name=".LandscapeActivity" -->
-            <!-- android:configChanges="orientation|screenSize|keyboardHidden" -->
-            <!-- android:screenOrientation="landscape"> -->
-
+            android:name=".NavigationDrawerActivity"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/Theme.Basic.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
