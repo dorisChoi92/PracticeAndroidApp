@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="고객정보 입력"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:id="@+id/mission09EditTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="25sp"
+        android:hint="이름"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+    <EditText
+        android:id="@+id/mission09EditTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="25sp"
+        android:hint="나이"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+    <Button
+        android:id="@+id/mission09ButtonBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:text="생년월일"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"/>
+
+    <Button
+        android:id="@+id/mission09Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"/>
+</LinearLayout>
