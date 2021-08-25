@@ -10,9 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Basic">
         <activity
-            android:name=".NavigationDrawerActivity"
-            android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/Theme.Basic.NoActionBar">
+            android:name=".Mission10"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

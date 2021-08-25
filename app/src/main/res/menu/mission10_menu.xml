@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mission10Tab1"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Pager"/>
+
+    <item
+        android:id="@+id/mission10Tab2"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="Menu1"/>
+
+    <item
+        android:id="@+id/mission10Tab3"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_input_delete"
+        android:title="Menu2"/>
+
+    <item
+        android:id="@+id/mission10Tab4"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="Menu3"/>
+
+</menu>
